@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      background-color: rgb(250, 250, 250);
+    }
+    .header-container {
+      background-color: rgb(255, 255, 255);
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 60px;
+    }
+
+    .logo {
+      width: 100px;
+      border-radius: 12px;
+    }
+
+    .button-container {
+      display: flex;
+      list-style-type: none;
+    }
+
+    .nav-button {
+      margin-left: 32px;
+      border: none;
+      background-color: transparent;
+      font-size: 18px;
+      font-weight: 500;
+    }
+
+    .nav-button:hover {
+      opacity: 0.7;
+      cursor: pointer;
+    }
+
+    .nav-button:active {
+      opacity: 0.5;
+      cursor: pointer;
+    }
+
+    .content-parent {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgb(58, 127, 225);
+      height: 70vh;
+    }
+
+    .content-child {
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 10vh;
+    }
+  </style>
+</head>
+<body>
+  <header class="header-container">
+    <div>
+      <img src="https://i.natgeofe.com/n/548467d8-c5f1-4551-9f58-6817a8d2c45e/NationalGeographic_2572187_square.jpg" class="logo">
+    </div>
+    <ul class="button-container">
+      <li>
+        <button class="nav-button">
+          Work
+        </button>
+      </li>
+      <li>
+        <button class="nav-button">
+          About
+        </button>
+      </li>
+    </ul>
+  </header>
+
+  <div class="content-parent">
+    <div class="content-child">
+      ありがとう
+    </div>
+  </div>
+</body>
+</html>
